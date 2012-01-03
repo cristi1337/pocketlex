@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E567CEB14B39ADC00949594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E567CEA14B39ADC00949594 /* UIKit.framework */; };
+		9E567CED14B39ADC00949594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E567CEC14B39ADC00949594 /* Foundation.framework */; };
+		9E567CEF14B39ADC00949594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E567CEE14B39ADC00949594 /* CoreGraphics.framework */; };
+		9E567CF514B39ADC00949594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E567CF314B39ADC00949594 /* InfoPlist.strings */; };
+		9E567CF714B39ADC00949594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E567CF614B39ADC00949594 /* main.m */; };
+		9E567CFB14B39ADC00949594 /* PocketLexAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E567CFA14B39ADC00949594 /* PocketLexAppDelegate.m */; };
+		9E567CFF14B39ADC00949594 /* PocketLexAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E567CFE14B39ADC00949594 /* PocketLexAppDelegate_iPhone.m */; };
+		9E567D0214B39ADC00949594 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E567D0014B39ADC00949594 /* MainWindow_iPhone.xib */; };
+		9E567D0614B39ADC00949594 /* PocketLexAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E567D0514B39ADC00949594 /* PocketLexAppDelegate_iPad.m */; };
+		9E567D0914B39ADC00949594 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E567D0714B39ADC00949594 /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E567CE614B39ADC00949594 /* PocketLex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketLex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E567CEA14B39ADC00949594 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E567CEC14B39ADC00949594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E567CEE14B39ADC00949594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E567CF214B39ADC00949594 /* PocketLex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketLex-Info.plist"; sourceTree = "<group>"; };
+		9E567CF414B39ADC00949594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E567CF614B39ADC00949594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E567CF814B39ADC00949594 /* PocketLex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketLex-Prefix.pch"; sourceTree = "<group>"; };
+		9E567CF914B39ADC00949594 /* PocketLexAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PocketLexAppDelegate.h; sourceTree = "<group>"; };
+		9E567CFA14B39ADC00949594 /* PocketLexAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketLexAppDelegate.m; sourceTree = "<group>"; };
+		9E567CFD14B39ADC00949594 /* PocketLexAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PocketLexAppDelegate_iPhone.h; path = iPhone/PocketLexAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		9E567CFE14B39ADC00949594 /* PocketLexAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PocketLexAppDelegate_iPhone.m; path = iPhone/PocketLexAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		9E567D0114B39ADC00949594 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		9E567D0414B39ADC00949594 /* PocketLexAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PocketLexAppDelegate_iPad.h; path = iPad/PocketLexAppDelegate_iPad.h; sourceTree = "<group>"; };
+		9E567D0514B39ADC00949594 /* PocketLexAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PocketLexAppDelegate_iPad.m; path = iPad/PocketLexAppDelegate_iPad.m; sourceTree = "<group>"; };
+		9E567D0814B39ADC00949594 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E567CE314B39ADC00949594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E567CEB14B39ADC00949594 /* UIKit.framework in Frameworks */,
+				9E567CED14B39ADC00949594 /* Foundation.framework in Frameworks */,
+				9E567CEF14B39ADC00949594 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E567CDB14B39ADC00949594 = {
+			isa = PBXGroup;
+			children = (
+				9E567CF014B39ADC00949594 /* PocketLex */,
+				9E567CE914B39ADC00949594 /* Frameworks */,
+				9E567CE714B39ADC00949594 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E567CE714B39ADC00949594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E567CE614B39ADC00949594 /* PocketLex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E567CE914B39ADC00949594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E567CEA14B39ADC00949594 /* UIKit.framework */,
+				9E567CEC14B39ADC00949594 /* Foundation.framework */,
+				9E567CEE14B39ADC00949594 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E567CF014B39ADC00949594 /* PocketLex */ = {
+			isa = PBXGroup;
+			children = (
+				9E567CF914B39ADC00949594 /* PocketLexAppDelegate.h */,
+				9E567CFA14B39ADC00949594 /* PocketLexAppDelegate.m */,
+				9E567CFC14B39ADC00949594 /* iPhone */,
+				9E567D0314B39ADC00949594 /* iPad */,
+				9E567CF114B39ADC00949594 /* Supporting Files */,
+			);
+			path = PocketLex;
+			sourceTree = "<group>";
+		};
+		9E567CF114B39ADC00949594 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E567CF214B39ADC00949594 /* PocketLex-Info.plist */,
+				9E567CF314B39ADC00949594 /* InfoPlist.strings */,
+				9E567CF614B39ADC00949594 /* main.m */,
+				9E567CF814B39ADC00949594 /* PocketLex-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E567CFC14B39ADC00949594 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				9E567CFD14B39ADC00949594 /* PocketLexAppDelegate_iPhone.h */,
+				9E567CFE14B39ADC00949594 /* PocketLexAppDelegate_iPhone.m */,
+				9E567D0014B39ADC00949594 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		9E567D0314B39ADC00949594 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				9E567D0414B39ADC00949594 /* PocketLexAppDelegate_iPad.h */,
+				9E567D0514B39ADC00949594 /* PocketLexAppDelegate_iPad.m */,
+				9E567D0714B39ADC00949594 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E567CE514B39ADC00949594 /* PocketLex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E567D0C14B39ADC00949594 /* Build configuration list for PBXNativeTarget "PocketLex" */;
+			buildPhases = (
+				9E567CE214B39ADC00949594 /* Sources */,
+				9E567CE314B39ADC00949594 /* Frameworks */,
+				9E567CE414B39ADC00949594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketLex;
+			productName = PocketLex;
+			productReference = 9E567CE614B39ADC00949594 /* PocketLex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E567CDD14B39ADC00949594 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9E567CE014B39ADC00949594 /* Build configuration list for PBXProject "PocketLex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E567CDB14B39ADC00949594;
+			productRefGroup = 9E567CE714B39ADC00949594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E567CE514B39ADC00949594 /* PocketLex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E567CE414B39ADC00949594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E567CF514B39ADC00949594 /* InfoPlist.strings in Resources */,
+				9E567D0214B39ADC00949594 /* MainWindow_iPhone.xib in Resources */,
+				9E567D0914B39ADC00949594 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E567CE214B39ADC00949594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E567CF714B39ADC00949594 /* main.m in Sources */,
+				9E567CFB14B39ADC00949594 /* PocketLexAppDelegate.m in Sources */,
+				9E567CFF14B39ADC00949594 /* PocketLexAppDelegate_iPhone.m in Sources */,
+				9E567D0614B39ADC00949594 /* PocketLexAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E567CF314B39ADC00949594 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E567CF414B39ADC00949594 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E567D0014B39ADC00949594 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E567D0114B39ADC00949594 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9E567D0714B39ADC00949594 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E567D0814B39ADC00949594 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E567D0A14B39ADC00949594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E567D0B14B39ADC00949594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E567D0D14B39ADC00949594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketLex/PocketLex-Prefix.pch";
+				INFOPLIST_FILE = "PocketLex/PocketLex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E567D0E14B39ADC00949594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketLex/PocketLex-Prefix.pch";
+				INFOPLIST_FILE = "PocketLex/PocketLex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E567CE014B39ADC00949594 /* Build configuration list for PBXProject "PocketLex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E567D0A14B39ADC00949594 /* Debug */,
+				9E567D0B14B39ADC00949594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E567D0C14B39ADC00949594 /* Build configuration list for PBXNativeTarget "PocketLex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E567D0D14B39ADC00949594 /* Debug */,
+				9E567D0E14B39ADC00949594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E567CDD14B39ADC00949594 /* Project object */;
+}
